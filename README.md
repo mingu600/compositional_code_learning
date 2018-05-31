@@ -35,6 +35,8 @@ python3 code_analysis.py
 ## Brief Results
 Using a 8x8 coding model, I got the following encodings:
 
+|             |                 |
+| ------------- | ------------- |
 | cat       	|  5,6,4,7,5,5,3,6 	|
 | dog       	|  0,6,4,7,4,0,3,6 	|
 | cow       	|  0,5,4,7,4,5,3,6 	|
@@ -44,4 +46,3 @@ Using a 8x8 coding model, I got the following encodings:
 |           	|                   |
 | president 	|  4,6,4,7,5,1,4,6  |
 | governor  	|  0,6,4,7,5,1,4,6  |
-| ------------- | ------------- |
