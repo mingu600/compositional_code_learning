@@ -4,7 +4,7 @@ This repository contains my personal implementation of the following work:
 
 Shu, R., Nakayama, H. (2018). [Compressing Word Embeddings Via Deep Compositional Code Learning](https://arxiv.org/pdf/1711.01068.pdf).
 
-I was able to implement their compositional code learning method, evaluate on sentiment transfer tasks, and compare word similarity between codes.
+I was able to implement their compositional code learning method, evaluate on sentiment classification tasks, and compare word similarity between codes.
 Evaluation on machine translation tasks has not been implemented yet.
 
 ## Dependencies
@@ -46,3 +46,10 @@ Using a 8x8 coding model, I got the following encodings:
 |           	|                   |
 | president 	|  4,6,4,7,5,1,4,6  |
 | governor  	|  0,6,4,7,5,1,4,6  |
+
+Words that are similar have very similar encodings. Also, for sentiment classification:
+
+|      Model       |          Accuracy     |
+| ------------- | ------------- |
+| Classifier with baseline GloVe embedding | 0.853|
+| Classifier with 64x8 encoding | 0.841|
