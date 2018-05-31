@@ -53,3 +53,5 @@ Words that are similar have very similar encodings. Also, for sentiment classifi
 | ------------- | ------------- |
 | Classifier with baseline GloVe embedding | 0.853|
 | Classifier with 64x8 encoding | 0.841|
+
+Therefore, I was able to replicate the results of the paper fairly well, and I also received very similar accuracy scores for the two classifiers, even though the the 64x8 encoding classifier is 3% the size of the baseline classifier.
